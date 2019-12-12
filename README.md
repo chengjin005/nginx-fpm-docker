@@ -20,7 +20,9 @@ php:  7.1.33
    sudo docker build -t nginx-php-fpm7.1 .
    ```
    b>直接使用hub.docker.com编译好的docker包
+   ```
    docker pull kanecheng/nginx-php-fpm7.1
+   ```
 
 2. 启动容器
 
